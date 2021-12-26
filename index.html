@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOME || WHERE -- Mobile-First</title>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Arvo|Lato"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.comp.css" />
+    <!-- JS -->
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+  <!-- navbar -->
+  <div class="header__navbar">
+    <p class="header__logo">Some<span>Where</span></p>
+    <button class="header__btn-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+    <nav class="nav header__nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#hero" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+        <li class="nav__item">
+          <a href="#services" class="nav__link">Services</a>
+        </li>
+        <li class="nav__item">
+          <a href="#featured" class="nav__link">Featured</a>
+        </li>
+        <li class="nav__item">
+          <a href="#gallery" class="nav__link">Gallery</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- hero -->
+
+  <div class="header__hero" id="hero">
+    <h1 class="heading-primary">Explore the world</h1>
+    <p class="header__hero-text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elitipsum dolor sit,
+      amet consectetur adipisicing elit electus laboriosam debitis.
+    </p>
+    <button class="header__hero-btn">Explore</button>
+  </div>
+</header>
+
+    <main>
+      <section class="section about" id="about">
+  <h2 class="heading-secondary about__heading">About <span>Us</span></h2>
+  <div class="about__img-box">
+    <img src="img/about.jpg" alt="Island image" class="about__img" />
+  </div>
+  <div class="about__text-content">
+    <h3 class="about__title">Explore the unexplored</h3>
+    <p class="about__text">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro provident
+      voluptatem cum debitis corrupti praesentium, reprehenderit eos quia ipsam
+      natus possimus expedita laborum fuga earum odit rerum ratione quos
+      accusamus!
+    </p>
+    <button class="btn about__btn">Learn more</button>
+  </div>
+</section>
+
+      <div class="divider"></div>
+      <section class="section services" id="services">
+  <h2 class="heading-secondary services__heading"><span>Our</span> services</h2>
+
+  <div class="services__items">
+    <div class="services__item">
+      <i class="fas fa-money-bill-alt services__icon"></i>
+      <h4 class="services__title">We are cheap</h4>
+      <p class="services__text">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto nobis
+        natus atque. Reiciendis, voluptatum voluptates?
+      </p>
+    </div>
+
+    <div class="services__item">
+      <i class="fas fa-university services__icon"></i>
+      <h4 class="services__title">We are everywhere</h4>
+      <p class="services__text">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto nobis
+        natus atque. Reiciendis, voluptatum voluptates?
+      </p>
+    </div>
+
+    <div class="services__item">
+      <i class="fas fa-socks services__icon"></i>
+      <h4 class="services__title">We are comfort</h4>
+      <p class="services__text">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, aliquam
+        in! Eligendi maxime sapiente aliquid.
+      </p>
+    </div>
+
+    <div class="services__item">
+      <i class="fas fa-user-shield services__icon"></i>
+      <h4 class="services__title">We are safe</h4>
+      <p class="services__text">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto nobis
+        natus atque. Reiciendis, voluptatum voluptates?
+      </p>
+    </div>
+  </div>
+</section>
+
+      <div class="divider"></div>
+      <section class="section featured" id="featured">
+  <h2 class="heading-secondary featured__heading">
+    Featured <span>tours</span>
+  </h2>
+
+  <div class="featured__tours">
+    <!-- <div class="tour">
+      <img src="img/tour1.jpg" alt="Tour photo" class="tour__img" />
+      <h4 class="tour__title"><span>Himalayan</span> adventure</h4>
+      <div class="tour__location">
+        <i class="fas fa-map-marked-alt tour__icon"></i>
+        Nepal
+      </div>
+      <div class="tour__detailes">
+        <span>7</span>days <br />
+        1000<span>$</span>
+      </div>
+    </div>
+
+    <div class="tour">
+      <img src="img/tour2.jpg" alt="Tour photo" class="tour__img" />
+      <h4 class="tour__title">Carribean adventure</h4>
+      <div class="tour__location">
+        <i class="fas fa-map-marked-alt tour__icon"></i>
+        Nassau
+      </div>
+      <div class="tour__detailes">
+        <span>12</span>days <br />
+        1500<span>$</span>
+      </div>
+    </div>
+
+    <div class="tour">
+      <img src="img/tour3.jpg" alt="Tour photo" class="tour__img" />
+      <h4 class="tour__title">Savanna adventure</h4>
+      <div class="tour__location">
+        <i class="fas fa-map-marked-alt tour__icon"></i>
+        Kenya
+      </div>
+      <div class="tour__detailes">
+        <span>5</span>days <br />
+        800<span>$</span>
+      </div>
+    </div>
+
+    <div class="tour">
+      <img src="img/tour4.jpg" alt="Tour photo" class="tour__img" />
+      <h4 class="tour__title">Alpes adventure</h4>
+      <div class="tour__location">
+        <i class="fas fa-map-marked-alt tour__icon"></i>
+        France
+      </div>
+      <div class="tour__detailes">
+        <span>4</span>days <br />
+        600<span>$</span>
+      </div>
+    </div> -->
+  </div>
+</section>
+
+      <div class="divider"></div>
+      <section class="section gallery" id="gallery">
+  <h2 class="heading-secondary gallery__heading"><span>Our</span> Gallery</h2>
+
+  <div class="gallery__box">
+    <div class="gallery__img-box gallery__img-box--1">
+      <img src="img/gallery1.jpg" alt="Gallery photo" class="gallery__img" />
+      <i class="fas fa-search gallery__icon"></i>
+    </div>
+    <div class="gallery__img-box gallery__img-box--2">
+      <img src="img/gallery2.jpg" alt="Gallery photo" class="gallery__img" />
+      <i class="fas fa-search gallery__icon"></i>
+    </div>
+    <div class="gallery__img-box gallery__img-box--3">
+      <img src="img/gallery3.jpg" alt="Gallery photo" class="gallery__img" />
+      <i class="fas fa-search gallery__icon"></i>
+    </div>
+    <div class="gallery__img-box gallery__img-box--4">
+      <img src="img/gallery4.jpg" alt="Gallery photo" class="gallery__img" />
+      <i class="fas fa-search gallery__icon"></i>
+    </div>
+    <div class="gallery__img-box gallery__img-box--5">
+      <img src="img/gallery5.jpg" alt="Gallery photo" class="gallery__img" />
+      <i class="fas fa-search gallery__icon"></i>
+    </div>
+    <div class="gallery__img-box gallery__img-box--6">
+      <img src="img/gallery6.jpg" alt="Gallery photo" class="gallery__img" />
+      <i class="fas fa-search gallery__icon"></i>
+    </div>
+    <div class="gallery__img-box gallery__img-box--7">
+      <img src="img/gallery7.jpg" alt="Gallery photo" class="gallery__img" />
+      <i class="fas fa-search gallery__icon"></i>
+    </div>
+    <div class="gallery__img-box gallery__img-box--8">
+      <img src="img/gallery8.jpg" alt="Gallery photo" class="gallery__img" />
+      <i class="fas fa-search gallery__icon"></i>
+    </div>
+  </div>
+</section>
+
+      <div class="divider"></div>
+      <section class="section submit" id="submit">
+  <h2 class="heading-secondary submit__heading">Submit <span>Now</span></h2>
+
+  <form action="#" class="submit__form">
+    <input type="email" class="submit__input" placeholder="Your email?" />
+    <input type="tel" class="submit__input" placeholder="Your number?" />
+    <button class="btn submit__btn">Submit</button>
+  </form>
+</section>
+
+    </main>
+    <footer class="footer">
+  <nav class="nav footer__nav">
+    <ul class="nav__list">
+      <li class="nav__item"><a href="#hero" class="nav__link">Home</a></li>
+      <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+      <li class="nav__item">
+        <a href="#services" class="nav__link">Services</a>
+      </li>
+      <li class="nav__item">
+        <a href="#featured" class="nav__link">Featured</a>
+      </li>
+      <li class="nav__item">
+        <a href="#gallery" class="nav__link">Gallery</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="footer__social-box">
+    <a href="#" class="footer__social-link"
+      ><i class="fab fa-facebook-square footer__social-icon"></i
+    ></a>
+    <a href="#" class="footer__social-link"
+      ><i class="fab fa-twitter-square footer__social-icon"></i
+    ></a>
+    <a href="#" class="footer__social-link"
+      ><i class="fab fa-instagram-square footer__social-icon"></i
+    ></a>
+  </div>
+
+  <div class="footer__copyright">
+    <p>Copyright &copy; <span>Somewhere</span> 2021. All right reserved</p>
+  </div>
+</footer>
+
+  </body>
+</html>
